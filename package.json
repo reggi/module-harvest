@@ -2,7 +2,6 @@
   "name": "module-harvest",
   "main": "module-harvest.js",
   "version": "0.0.2",
-  "bin": "bin/module-harvest.js",
   "scripts": {
     "test": "standard && mocha"
   },
@@ -35,5 +34,8 @@
     "type": "git",
     "url": "https://github.com/reggi/node-module-harvest"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+    "module-harvest": "bin/module-harvest.js"
+  }
 }
